@@ -1,0 +1,400 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: #d2ab80;
+    color: black;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li{
+    position: relative;
+    padding: 0 15px;
+}
+
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    font-family: "DM Serif Text", serif;
+}
+
+/*logo styling*/
+.logo-style img{
+    max-height: 70px;
+}
+
+.logo-style{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "DM Serif Text", serif;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background: #d2ab80;
+    list-style: none;
+    padding: 10px;
+    min-width: 150px;
+}
+
+/* dropdown menu when hover*/
+.dropdown:hover .dropdown-menu{
+    display: block;
+    border-radius: 10px;
+}
+
+.dropdown-menu li{
+    padding: 8px 0;
+}
+
+.nav-links a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.dropdown-menu li:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+/* Footer Styling */
+footer{
+    background: #d2ab80;
+    color: black; 
+    padding: 40px 5%;     
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section h3{
+    font-weight: bold;  
+    font-size: 20px;      
+    letter-spacing: 1px;    
+    margin-bottom: 10px;    
+    color: #453838;        
+}
+
+.locations{
+    text-align: left;
+    font-size: 0.9rem;
+}
+ 
+
+.socials img{
+    width: 30px;
+    margin: 0 10px 20px;
+    cursor: pointer;
+}
+.socials img:hover{
+    filter: drop-shadow( 3px 2px 5px #e5d2b8);
+    transform: translateY(-2px);
+    
+}
+
+.socials h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.contact-info{
+    text-align: left;
+    margin-right: 10px;
+    font-size: 0.9rem;
+    
+}
+
+.contact-info img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+/* Carousel Size*/
+.carousel-item{
+   height: 600px;
+    
+}
+
+.carousel-item img{
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.carousel-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  
+}
+
+
+.carousel-caption{
+    top: 25%;
+    height: 45%;
+    font-size: 120px;
+    color: #e5d2b8;
+    font-family:"DM Serif Text", serif;
+    
+}
+
+
+/*Homepage About Us*/
+.zs-full-width , .ze-full-width{
+  width: 100%;
+  background-color: #e5d1bc; 
+  padding: 80px 0; 
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.info{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 100px;
+    color: #453838;
+    font-family: "Raleway", sans-serif;
+    flex: 1;
+}
+
+.info h2{
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    font-family: "DM Serif Text", serif;
+}
+
+
+.photo img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+.photo h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Raleway", serif;
+    font-weight: bold;
+}
+
+.janice-full-width.reverse , .xw-full-width.reverse{
+  width: 100%;
+  background-color: #e5e0d8; 
+  padding: 80px 0; 
+}
+
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-direction: row-reverse;
+}
+
+.info{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 100px;
+    color: #453838;
+    font-family: "Raleway", sans-serif;
+    flex: 1;
+}
+
+.info h2{
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    font-family: "DM Serif Text", serif;
+}
+
+
+.photo img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+.photo h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Raleway", serif;
+    font-weight: bold;
+}
+
+/*Services*/
+.services-full-width{
+  width: 100%;
+  background-color: #e5d1bc; 
+  font-family: "DM Serif Text", serif;
+  padding-left: 60px 0;
+  justify-content: center;
+}
+
+.services-full-width .row {
+    max-width: 1500px;    
+    width: 90%;
+    margin: 0 auto;       
+}
+
+
+.card-style{
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+.card-img-top{
+    display: block;
+    height: 350px;
+    width: 350px;        
+    margin: 0 auto;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+
+.text-info h3{
+  font-family: "DM Serif Text", serif;
+  text-align: center;
+  color:black;
+  margin-bottom: 25px;
+}
+
+.text-info ul {
+    list-style-type: disc; 
+    padding-left: 30px;    
+    margin: 0;            
+    text-align: left;     
+}
+
+.text-info li{
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  color:black;
+  margin-bottom: 25px;
+}
+
+.more {
+    display: inline-block;    
+    text-decoration: none;    
+    text-align: center;  
+    margin: 30px;
+    padding: 12px 50px;
+    width: 150px;
+    background-color: #d2ab80; 
+    border: none;
+    border-radius: 60px; 
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    font-family: "DM Serif Text", serif;
+    letter-spacing: 1px;
+}
+
+.more:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 5px rgba(139, 113, 92, 1)
+}
+
+/*Branding*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 96px; 
+  padding: 180px;
+    background: #e5d2b8 
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1; 
+  object-fit: cover; 
+  border-radius: 8px; 
+  display: block;
+  
+}
+
+.grid-item img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+/*Event design*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 96px; 
+  padding: 180px;
+    background: #e5d2b8 
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1; 
+  object-fit: cover; 
+  border-radius: 8px; 
+  display: block;
+  
+}
+
+.grid-item img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.modal p {
+  font-size: 25px;
+  font-family: "DM Serif Text", serif;
+  text-align: left;
+  color:black;
+}
+
+
+.event-design-full-width {
+  padding-top: 2px;
+  width: 100%;
+  background-color: #e5e0d8; 
+  font-family: "DM Serif Text", serif;
+}
+
+
+

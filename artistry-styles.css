@@ -1,0 +1,263 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: #d2ab80;
+    color: black;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li{
+    position: relative;
+    padding: 0 15px;
+}
+
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    font-family: "DM Serif Text", serif;
+}
+
+/*logo styling*/
+.logo-style img{
+    max-height: 70px;
+}
+
+.logo-style{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "DM Serif Text", serif;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background: #d2ab80;
+    list-style: none;
+    padding: 10px;
+    min-width: 150px;
+}
+
+/* dropdown menu when hover*/
+.dropdown:hover .dropdown-menu{
+    display: block;
+    border-radius: 10px;
+}
+
+.dropdown-menu li{
+    padding: 8px 0;
+}
+
+.nav-links a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.dropdown-menu li:hover{
+    text-decoration: underline;
+    color: white;
+}
+/* Carousel Size*/
+.carousel-item{
+   height: 600px;
+    
+}
+
+.carousel-item img{
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.carousel-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  
+}
+
+.carousel-caption{
+    top: 25%;
+    height: 45%;
+    font-size: 120px;
+    color: #e5d2b8;
+    font-family:"DM Serif Text", serif;
+    
+}
+
+.portfolio-full-width {
+  padding-top: 2px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: #e5e0d8; 
+  font-family: "DM Serif Text", serif;
+}
+
+.card-style{
+    padding: 0;
+    border: none;
+}
+
+.card-img-top{
+    width: 95%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.text-info{
+    min-height: 220px;
+    display: block;
+}
+
+.text-info h3{
+  font-family: "DM Serif Text", serif;
+  text-align: center;
+  color:black;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.text-info ul {
+    list-style-type: disc; 
+    padding-left: 20px;    
+    margin: 0;            
+    text-align: left;     
+}
+
+.text-info li{
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  color:black;
+  margin-bottom: 25px;
+}  
+
+.more {
+    display: block;   
+    text-decoration: none;
+    margin: 30px auto 20px auto;
+    padding: 12px 50px;
+    width: 150px;
+    background-color: #d2ab80; 
+    border: none;
+    border-radius: 60px; 
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    font-family: "DM Serif Text", serif;
+    letter-spacing: 1px;
+}
+
+.more:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 5px rgba(139, 113, 92, 1)
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 96px; 
+  padding: 180px;
+    background: #e5d2b8 
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1; 
+  object-fit: cover; 
+  border-radius: 8px; 
+  display: block;
+}
+  
+.grid-item img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.modal p {
+  font-size: 25px;
+  font-family: "DM Serif Text", serif;
+  text-align: left;
+  color:black;
+}
+
+
+
+/* Footer Styling */
+footer{
+    background: #d2ab80;
+    color: black; 
+    padding: 40px 5%;     
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section h3{
+    font-weight: bold;  
+    font-size: 20px;      
+    letter-spacing: 1px;    
+    margin-bottom: 10px;    
+    color: #453838;        
+}
+
+.locations{
+    text-align: left;
+    font-size: 0.9rem;
+}
+ 
+
+.socials img{
+    width: 30px;
+    margin: 0 10px 20px;
+    cursor: pointer;
+}
+.socials img:hover{
+    filter: drop-shadow( 3px 2px 5px #e5d2b8);
+    transform: translateY(-2px);
+    
+}
+
+.socials h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.contact-info{
+    text-align: left;
+    margin-right: 10px;
+    font-size: 0.9rem;
+    
+}
+
+.contact-info img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.service-item {
+  display: flex;           
+  align-items: center;    
+  margin-bottom: 40px;    
+  gap: 30px;              
+}
